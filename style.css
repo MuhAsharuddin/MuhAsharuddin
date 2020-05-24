@@ -1,0 +1,260 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+
+.navbar{
+    width: 800px;
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(83, 83, 83);
+    padding-left: 40px;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: gainsboro;
+    margin: 0 7px;
+}
+
+#runningtext {
+	width: 800px;
+	height: 20px;
+	background-color: black;
+	color: white;
+}
+
+.bio{
+	background-color: gray;
+}
+
+.biodata {
+	width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(56, 43, 43);
+    box-sizing: border-box;
+}
+
+.biodata img {
+	border-radius: 50%;
+	border: 7px solid black;
+	width: 30%;
+	position: relative;
+	top: 100px;
+}
+
+.biodata p{
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	width: 470px;
+	display: inline-block;
+	padding-left: 25px;
+	padding-bottom: 30px;
+	color: whitesmoke;
+	line-height: 25px;
+}
+
+.bio table{
+	margin: 70px auto;
+}
+
+.bio table td{
+	padding: 4px 0;
+	color: black;
+	font-family: monospace, sans-serif;
+	font-weight: bold;
+
+}
+
+.bio td.left{
+	padding-right: 50px;
+}
+
+
+.button{
+    width: 680px ;
+    margin: 60px auto 0;
+    padding-bottom: 100px;
+}
+
+.button a{
+	text-decoration: none;
+	color: gainsboro;
+	cursor:pointer;
+	line-height: 60px;
+	font-size: 20px;
+	font-family: cursive,sans-serif
+}
+
+.b1, .b2, .b3, .b4{
+	width: 300px;
+	height: 60px;
+	background-color: black;
+	margin: 7px;
+	text-align: center;
+}
+
+.b1, .b2{
+	display: inline-block;
+}
+
+.b3,.b4{ display: inline-block}
+
+footer{
+    width: 800px;
+    text-align: center;
+    background-color: rgb(54, 48, 48);
+    padding: 10px 0 ;
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 800px){
+	.navbar{ width: 100%;}
+	#runningtext { width: 100%;}
+	footer { width: 100%}
+	.bio{ margin-top: 100px;}
+	.button{ margin-bottom: 100px;}
+}
+
+/* Style Profil.html */
+.profil,.pendidikan{
+	width: 800px;
+	margin: auto;
+}
+
+.div.bg-profil{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profil h1{
+	margin: 30px 28% 20px;
+	font-weight: 500;
+}
+
+.profil img{
+	width: 40%;
+	margin-left:28%;
+}
+
+.profil table{
+	margin: 20px auto 100px;
+}
+
+.profil td.left{
+	padding-right: 70px;
+}
+
+.profil td{
+	line-height: 20px;
+	font-family: arial, sans-serif;
+	padding: 2px 10px;
+}
+
+.bg-pend{
+	margin: 70px auto;
+}
+.pendidikan{
+	padding: 50px 50px;
+}
+
+.pengantar .p1{
+	display:inline-block;
+	width: 350px;
+	line-height: 25px;
+}
+
+.pengantar img{
+	width: 250px;
+	padding-bottom: 30px;
+	margin-left: 40px;
+}
+
+.pendidikan h1{
+    text-align: center;
+    margin: 70px 0 20px;
+}
+
+.pelatihan h1{
+	text-align: center;
+}
+
+.pelatihan{
+	margin-bottom: 300px;
+	padding-left: 50px;
+}
+/* .pelatihan .tk img, .pelatihan .smp img, .pelatihan .sd img, .pelatihan .sma img {
+    width: 150px;
+    padding-bottom: 5%
+}
+
+.tk,.sd,.smp,.sma{
+	margin: 50px 0;
+}
+
+.pelatihan .teks{
+	width: 450px;
+	display: inline-block;
+	line-height: 25px;
+	text-align: justify;
+	margin: 0 20px;
+} */
+
+.pendidikan table{
+	margin: auto;
+}
+
+.pendidikan table td{
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.pendidikan .pend{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pendidikan h3{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* 
+.pendidikan h3::before{
+    content: " ";
+    width: 20px;
+    height: 20px ;
+    margin-left: -34px;
+    position: absolute;
+    background-color: rgb(65, 30, 14);
+    border-radius: 50%;
+} */
+
+.pendidikan .sekolah{
+	line-height: 30px;
+    margin: 0 20px ;
+    padding: 20px;
+    border-left: 3px solid rgb(10, 10, 34);
+}
+
+.pendidikan .sekolah:last-child{
+    padding-bottom: 5px;
+}
