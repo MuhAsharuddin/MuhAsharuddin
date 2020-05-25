@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 body{
-    background-color: lightgray;
+    background-color:darkslategrey;
 }
 
 .container{
@@ -175,6 +175,9 @@ footer{
 .pendidikan{
 	padding: 50px 50px;
 }
+.pendidikan,.pelatihan{
+	color: wheat;
+}
 
 .pengantar .p1{
 	display:inline-block;
@@ -201,25 +204,10 @@ footer{
 	margin-bottom: 300px;
 	padding-left: 50px;
 }
-/* .pelatihan .tk img, .pelatihan .smp img, .pelatihan .sd img, .pelatihan .sma img {
-    width: 150px;
-    padding-bottom: 5%
-}
-
-.tk,.sd,.smp,.sma{
-	margin: 50px 0;
-}
-
-.pelatihan .teks{
-	width: 450px;
-	display: inline-block;
-	line-height: 25px;
-	text-align: justify;
-	margin: 0 20px;
-} */
 
 .pendidikan table{
 	margin: auto;
+	border: 1px solid white;
 }
 
 .pendidikan table td{
@@ -237,22 +225,12 @@ footer{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* 
-.pendidikan h3::before{
-    content: " ";
-    width: 20px;
-    height: 20px ;
-    margin-left: -34px;
-    position: absolute;
-    background-color: rgb(65, 30, 14);
-    border-radius: 50%;
-} */
 
 .pendidikan .sekolah{
 	line-height: 30px;
     margin: 0 20px ;
     padding: 20px;
-    border-left: 3px solid rgb(10, 10, 34);
+    border-left: 3px solid white;
 }
 
 .pendidikan .sekolah:last-child{
